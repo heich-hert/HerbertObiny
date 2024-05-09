@@ -14,8 +14,8 @@
     --fw-bold: 900;
     
     --clr-light: #fff;
-    --clr-dark: #303030;
-    --clr-accent: #16e0bd;
+    --clr-dark: #050203;
+    --clr-accent: #e83c0c;
     
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -142,7 +142,7 @@ header {
 }
 
 .logo {
-    max-width: 100px;
+    max-width: 50px;
 }
 
 .nav {
@@ -295,7 +295,7 @@ header {
 
 .my-services {
     background-color: var(--clr-dark);
-    background-image: url(../img/services-bg.jpg);
+    background-clip: url(../img/serviceBg.png);
     background-size: cover;
     /* background-blend-mode: multiply; */
     color: var(--clr-light);
