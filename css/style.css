@@ -171,7 +171,7 @@ header {
 }
 
 .nav__link {
-    color: inherit;
+    color: #e83c0c;
     font-weight: var(--fw-bold);
     font-size: var(--fs-h2);
     text-decoration: none;
@@ -259,16 +259,19 @@ header {
     display: inline-block;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 1000px) {
     .intro {
         display: grid;
-        width: min-content;
+        /* width: min-content; */
         margin: 0 auto;
         grid-column-gap: 1em;
         grid-template-areas: 
             "img title"
             "img subtitle";
         grid-template-columns: min-content max-content;
+        /* background-color: var(--clr-dark); */
+        background-image: url(../img/UpperBGupscale1-removebg.png);
+        background-size: cover;
     }
     
     .intro__img {
@@ -289,7 +292,14 @@ header {
     }
 }
 
-
+/* .intro {
+    background-color: var(--clr-dark);
+    background-image: url(../img/UpperBGupscale.jpg);
+    background-size: cover; */
+    /* background-blend-mode: multiply; */
+    /* color: var(--clr-light);
+    text-align: center;
+} */
 
 /*  My services section  */
 
